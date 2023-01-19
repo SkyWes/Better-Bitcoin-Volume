@@ -67,7 +67,7 @@ int OnCalculate(const int rates_total,
       if(new_bar && new_tf == false){
             ReadFile(Filename);
             btcvl[0] = 0;
-            btcvl[1] = btcvlBuffer[1];
+            btcvl[1] = btcvlBuffer[0];
             old_data=GlobalVariableGet("new data");
             new_bar = false;
          }
