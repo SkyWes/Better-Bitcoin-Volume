@@ -3,4 +3,4 @@ A simple EA and Indicator pair that plots a histogram of aggregated bitcoin volu
 
 1. Add the indicator to the chart first.
 
-2. Give it a few seconds to update, the web scrape takes a few seconds.
+2. Give it a few seconds to update, the web scrape takes 2-4 seconds. Once complete, chart will update on next tick.
