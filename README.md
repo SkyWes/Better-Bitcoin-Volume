@@ -1,6 +1,6 @@
 # BtcAggregateVolume
 A simple EA and Indicator pair that plots a histogram of aggregated Bitcoin volume scraped from Bitcoinity.org.
 
-1. Add the indicator to the chart first.
+1. Add the indicator to the chart first. Then add the EA.
 
 2. Give it a few seconds to update, the web scrape takes 2-4 seconds. Once complete, chart will update on next tick.
