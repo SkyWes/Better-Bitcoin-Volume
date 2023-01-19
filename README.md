@@ -1,5 +1,5 @@
 # BtcAggregateVolume
-A simple EA and Indicator pair that plots a histogram of aggregated from exchanges with bitcoin volume scraped from Bitcoinity.org.
+A simple EA and Indicator pair that plots a histogram of aggregated Bitcoin volume scraped from Bitcoinity.org.
 
 1. Add the indicator to the chart first.
 
