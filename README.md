@@ -12,3 +12,7 @@ A simple EA and Indicator pair that plots a histogram of aggregated Bitcoin volu
      https://data.bitcoinity.org/export_data.csv?c=e&data_type=volume&r=hour&t=b&timespan=30d
      
      https://data.bitcoinity.org/export_data.csv?c=e&data_type=volume&r=day&t=b&timespan=2y
+
+Limitations to be improved upon : 1. Because the WebRequest() function in MQL5 is only available for use in Expert Advisors, it is required to communicate to the Indicator through a GlobalVariable. Hence the EA, Indicator pairing. If more than one instance of the EA is applied, there will be a conflict between instances due to identical file naming of the file downloads. This could be overcome by naming the file downloads with an appended random number generated with MathRand() or by simply numbering the files in sequence and checking for the existence of a file before initializing a new instance. 
+
+2. Due to the limitations of the data being downloaded, a 30M chart for example will only have 46 bars. It may be desirable to allow more bars to accumulate if analysis depends on more than 46 bars. If however the timeframe is changed, all the accumulated data will be lost. An additional feature may be added that allows an accumulation to be saved in a file for recovery if a user is cycling through timeframes, accidentally changes timeframes, or the terminal is closed.
