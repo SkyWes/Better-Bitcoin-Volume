@@ -1,7 +1,7 @@
 # BtcAggregateVolume
 <img src="https://user-images.githubusercontent.com/119025169/233169604-ab571eac-5640-4559-9066-7d056493b9cc.PNG" width=400 />
 
-EA and Indicator pair that plots a histogram of Bitcoin volume aggregated from top exchanges with real volume (many exchanges have fake and useless volume) scraped from Bitcoinity.org. When grouping the data into higher timeframes, great care must be taken to unsure the data "lines up" with the correct bars. My algorithm converts the datetimes to the local time zone, and groups the data based on the time frame.
+EA and Indicator pair that plots a histogram of Bitcoin volume aggregated from top exchanges with real volume (many exchanges have fake and useless volume) scraped from Bitcoinity.org. When grouping the data into higher timeframes, great care must be taken to ensure the data "lines up" with the correct bars. My algorithm converts the datetimes to the local time zone, and groups the data based on the time frame.
 
 ### Installation
 I'm assuming you are already familiar with the Metatrader platform and have installed custom indicators before.
